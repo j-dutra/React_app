@@ -1,4 +1,4 @@
-# Criando um pequeno projeto 'react' na mão
+# Criando um pequeno projeto com 'react', Webpack, e babel
 
 ## O que é React?
 
