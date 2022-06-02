@@ -52,9 +52,13 @@ cria o arquivo “package.json” para automação de seus scripts e organizaç�
 
     “react” = Pacote genérico do React.
 
-    “react-dom” = Pacote que tem a função de intermediar o que será renderizado (componentes) e o DOM
+    “react-dom” = Pacote que tem a função de intermediar o que será renderizado (componentes) e o DOM.
 
-    “@babel/core” = Núcleo do compilador Babel
+    “html-loader” = Exporta HTML como string.
+
+    “html-webpack-plugin” = Plugin que simplifica a criação do HTML para servir os arquivos unificados gerados pelos loaders.
+
+    “@babel/core” = Núcleo do compilador Babel.
 
     “@babel/preset-env” =Torna o código mais recente (ECMAScript 2015+) compatível.
 
