@@ -1,4 +1,6 @@
-# Criando um pequeno projeto com 'react', Webpack, e babel
+# Criando um projeto 'react', com Webpack, e babel
+
+Este projeto tem como objetivo, passar os principais conceitos aplicados a construção de um projeto React, desenvolvido do zero, uma maneira de saber o que está por baixo do capô, quando digitamos o comando "npx create-react-app". 
 
 ## O que é React?
 
@@ -17,7 +19,7 @@ Babel é um compilador JavaScript, uma ferramenta que “transpila” ( mistura 
 O webpack é um empacotador de módulos ( module bundler ) para aplicações modernas JavaScript. Esta ferramenta permite agrupar, em um único arquivo, módulos presentes em um projeto. Este arquivo único pode ser minificado para redução de seu tamanho ou não. Em relação a sua funcionalidade, o webpack recebe um arquivo ‘.js’ de entrada ( o entry point ). A partir deste arquivo, é criado um “grafo de dependências” ( dependency graph ), isto é, todos os módulos que tiverem sido importados pelo arquivo de entrada, direta ou indiretamente, são identifacados e, por fim, agrupados. Dessa forma, para configurar o webpack você precisará mencionar o local do arquivo de entrada ( entry point ), e o local do arquivo de saída ( output ). 
 
 
-## Iniciando um pequeno projeto
+## Iniciando o projeto
 
 ### Requisitos para iniciar um projeto React.
 
@@ -195,7 +197,7 @@ Para finalizar, abra o arquivo “package.json” que está presente na raíz de
         }
     } 
 
-Por fim, use o seguinte comando:
+Por fim, use o comando abaixo para rodar o projeto:
 
     $ npm run start
 
